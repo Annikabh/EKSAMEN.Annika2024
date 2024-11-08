@@ -1,21 +1,112 @@
 html {
+    font-size: calc(1em + 1vw);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
-h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+h1 a {
+    color: black;
+    border: 0px;
+    margin: 0px;
+    width: 200px;
+}
+#logo {width: 40px;
+       height: 40px;
+}
+#logo:hover {
+    transform: scale(1.05);
 }
 
-#logo {
-    width: 40px;
-    height: 40px;
+
+#handlevogn {
+    height: 20px;
+    width: 20px;
+}
+
+#handlevogn:hover {
+    transform: scale(1.1);
+}
+
+#hjerte {
+    height: 20px;
+    width: 20px;
+}
+
+#hjerte:hover {
+    transform: scale(1.1);
+}
+
+#søkemotor {
+    display: flex;
+    margin: auto 0px auto 675px;
+    gap: 20px;
+}
+ 
+header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    transform: scale(1.05);
+    color: brown;
 }
+
+
+
+
+
+
+
+
+
+/*usikker på denne delen*/
+footer {
+    display: grid;
+    columns: 4;
+    width: 1400px;
+    max-width: 100%;
+}
+
+footer nav section #logobunn {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+footer nav section #omoss {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+footer nav section #sosialemedier {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+footer nav section #snarveier {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
