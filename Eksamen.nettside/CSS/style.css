@@ -70,6 +70,61 @@ a:hover {
     color: brown;
 }
 
+img {
+    width: 300px;
+    height: 275px;
+}
+img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#besteprodkuter {
+    display: flex;
+    width: 1000px;
+    max-width: 1000px;
+    height: 850px;
+}
+#besteprodukter #førstelinje {
+    width: 950px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#besteprodukter #andrelinje {
+    width: 950px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+article {
+    width: 300px;
+    height: 350px;
+    
+}
+
+#bestekategorier section {
+        width: 950px;
+        list-style: none;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 25px;
+}
+
 
 
 
