@@ -1,88 +1,52 @@
-html {
-    font-size: calc(1em + 1vw);
-}
+html {font-size: calc(1em + 1vw);}
 
-* {
-    box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
+body {font-family: Arial, Helvetica, sans-serif;  text-decoration: none;}
+
+article {width: 300px;  height: 350px;}
 
 h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color: black;
-}
+    color: black;}
 h1 a {
     color: black;
     border: 0px;
     margin: 0px;
-    width: 200px;
-}
+    width: 200px;}
+
+h2 {display: flex;  justify-content: center;}
+h3 {font-size: 20px;}
+
 #logo {width: 40px;
        height: 40px;
-       margin: 0.5rem;
-}
-#logo:hover {
-    transform: scale(1.05);
-}
+       margin: 0.5rem;}
+#logo:hover { transform: scale(1.05);}
 
 
-#handlevogn {
-    height: 20px;
-    width: 20px;
-}
+#handlevogn {height: 20px;  width: 20px;}
+#handlevogn:hover {transform: scale(1.1);}
 
-#handlevogn:hover {
-    transform: scale(1.1);
-}
-
-#hjerte {
-    height: 20px;
-    width: 20px;
-}
-
-#hjerte:hover {
-    transform: scale(1.1);
-}
+#hjerte { height: 20px;  width: 20px;}
+#hjerte:hover {transform: scale(1.1);}
 
 #søkemotor {
     display: flex;
     margin: auto 0px auto 675px;
-    gap: 20px;
-}
+    gap: 20px;}
  
 header ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    gap: 20px;
-}
+    gap: 20px;}
 
-a {
-    text-decoration: none;
-    color: black;
-}
+a {text-decoration: none;  color: black;}
+a:hover {color: brown;}
 
-a:hover {
-    color: brown;
-}
-
-img {
-    width: 300px;
-    height: 275px;
-}
-img:hover {
-    transform: scale(1.05);
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-}
+img {width: 300px;  height: 275px;}
+img:hover {transform: scale(1.05);}
 
 #besteprodkuter {
     display: flex;
@@ -107,14 +71,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-size: 20px;
-}
-
-article {
-    width: 300px;
-    height: 350px;
-    
-}
+    font-size: 20px;}
 
 #bestekategorier section {
         width: 950px;
@@ -123,46 +80,34 @@ article {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        font-size: 25px;
-}
+        font-size: 25px;}
+
+#anmeldelser article img {width: 200px;  height: 50px;}
+#anmeldelser article img:hover {transform: none;}
+#anmeldelser article {width: 250px;}
+#anmeldelser {
+    width: 1200px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;}
+
+#logobunn { width: 1200px;  margin: 200px 15px 50px; font-size: 25px;}
+
+#nederste section {width: 400px;  justify-content: center;}
+#nederste {
+    margin: auto ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    justify-content: space-between;}
+
+#omoss{ display: flex;   list-style: none;}
+#sosialemedier{ display: flex;}
+#snarveier { display: flex;   list-style: none;}
 
 
-
-
-
-
-
-
-
-/*usikker på denne delen*/
-footer {
-    display: grid;
-    columns: 4;
-    width: 1400px;
-    max-width: 100%;
-}
-
-footer nav section #logobunn {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-footer nav section #omoss {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-footer nav section #sosialemedier {
-    display: grid;
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
-
-footer nav section #snarveier {
-    display: grid;
-    grid-column-start: 4;
-    grid-column-end: 4;
-}
 
