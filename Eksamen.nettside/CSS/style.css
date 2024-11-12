@@ -16,7 +16,7 @@ h1 a {
     width: 200px;}
 
 h2 {display: flex;  justify-content: center;}
-h3 {font-size: 20px;}
+h3 {font-size: 20px; display: flex; align-items: start;}
 
 #logo {width: 40px;
        height: 40px;
@@ -41,11 +41,12 @@ header ul {
     flex-wrap: wrap;
     font-size: 18px;
     gap: 20px;}
+ul {list-style: none;}
 
 a {text-decoration: none;  color: black;}
 a:hover {color: brown;}
 
-img {width: 300px;  height: 275px;}
+img {width: 300px;  height: 275px; border: 2px; border-radius: 5%;}
 img:hover {transform: scale(1.05);}
 
 #besteprodkuter {
@@ -94,20 +95,27 @@ img:hover {transform: scale(1.05);}
     justify-content: space-between;
     font-size: 20px;}
 
-#logobunn { width: 1200px;  margin: 200px 15px 50px; font-size: 25px;}
+footer {background-color: rgb(207, 154, 89); color: white; height: 175px;}
 
-#nederste section {width: 400px;  justify-content: center;}
+#logobunn { font-size: 18px; background-color: rgb(207, 154, 89); width: 100%; display: flex; flex-wrap: wrap;}
+#logobunn img {width: 40px; height: 40px; background-color: rgb(207, 154, 89); margin: 10px 15px;}
+
+
+#nederste section {width: 400px; display: flex; justify-content: center;}
+#nederste a {color: white; list-style: none;}
+#nederste a:hover {color: orange;}
 #nederste {
-    margin: auto ;
+    margin: 200px auto 0px auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
     justify-content: space-between;}
+#nederste img {width: 20px; height: 20px;}
 
-#omoss{ display: flex;   list-style: none;}
-#sosialemedier{ display: flex;}
-#snarveier { display: flex;   list-style: none;}
+#omoss{ display: flex;  color: white;}
+#sosialemedier{ display: flex; color: white;}
+#snarveier { display: flex; color: white;}
 
 
 
