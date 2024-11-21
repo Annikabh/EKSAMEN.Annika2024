@@ -18,8 +18,9 @@ h1 a {
     width: 300px;
     justify-content: center;}
 
-h2 {display: flex;  justify-content: center;}
+h2 {display: flex;  justify-content: center; width: 900px; display: flex; font-size: 35px;}
 h3 {font-size: 20px; display: flex; align-items: start;}
+h4 {font-size: 20px;}
 
 #logo {width: 40px;
        height: 40px;
@@ -79,40 +80,38 @@ img:hover {transform: scale(1.05);}
      grid-template-rows: repeat(3, auto);
      row-gap: 1rem;}
 
-#besteprodukter #førstelinje {
+#overbestepro {
+    width: 950px;
+    display: flex;
+    min-width: 100%;
+}
+
+#besteprodukter {
     width: 950px;
     list-style: none;
-    margin: auto;
+    margin: 4rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 20px;}
 
-#besteprodukter #andrelinje {
-    width: 950px;
-    list-style: none;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: 20px;}
-
-#bestekategorier section {
+#bestekategorier {
         width: 950px;
         list-style: none;
-        margin: auto;
+        margin: 4rem auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         font-size: 25px;}
 
-#anmeldelser article img {width: 200px;  height: 50px;}
-#anmeldelser article img:hover {transform: none;}
-#anmeldelser article {width: 250px;}
-#anmeldelser {
+#anmeld h2 {width: 1200px;}
+#anmeld article img {width: 200px;  height: 50px;}
+#anmeld article img:hover {transform: none;}
+#anmeld article {width: 250px;}
+#anmeld {
     width: 1200px;
     list-style: none;
-    margin: auto;
+    margin: 4rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -120,25 +119,23 @@ img:hover {transform: scale(1.05);}
 
 footer {background-color: rgb(207, 154, 89); color: white; height: 200px;}
 
-#logobunn { font-size: 15px; color: black; background-color: rgb(207, 154, 89); width: 100%; display: flex; flex-wrap: wrap;}
-#logobunn img {width: 30px; height: 30px; background-color: rgb(207, 154, 89); margin: 10px 15px;}
+#logobunn { font-size: 20px; margin: auto; color: black; background-color: rgb(207, 154, 89); display: flex; justify-content: center; width: 100%;}
+#logobunn img {width: 40px; height: 40px; background-color: rgb(207, 154, 89); margin:10px;}
 
-
-#nederste section {width: 400px; display: flex; justify-content: center;}
-#nederste a {color: white; list-style: none;}
+#nederste a {color: white;}
 #nederste a:hover {color: orange;}
 #nederste {
-    margin: 200px auto 0px auto;
     width: 100%;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    justify-content: space-between;}
+    background-color: rgb(207, 154, 89);}
 #nederste img {width: 20px; height: 20px;}
 
-#omoss{ display: flex;  color: white;}
-#sosialemedier{ display: flex; color: white;}
-#snarveier { display: flex; color: white;}
+#omoss{ display: flex; color: white; width: 600px;}
+#sosialemedier{ display: flex;  color: white; width: 400px;}
+#snarveier { display: flex;  color: white; width: 400px;}
 
 
 
