@@ -177,3 +177,19 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
 
 
 
+#brødsmulesti {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: rgb(238, 232, 226);
+    gap: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+}
+#brødsmulesti li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
