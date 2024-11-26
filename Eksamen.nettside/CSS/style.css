@@ -9,8 +9,8 @@ article {width: 300px;  height: 350px;}
 h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: black;
-    display: flex;
-}
+    display: flex;}
+
 h1 a {
     display: flex;
     color: black;
@@ -19,19 +19,24 @@ h1 a {
     justify-content: center;}
 
 h2 {display: flex;  justify-content: center; width: 1200px; display: flex; font-size: 35px;}
+
 h3 {font-size: 20px; display: flex; align-items: start;}
+
 h4 {font-size: 20px;}
 
 #logo {width: 40px;
        height: 40px;
        margin: 0.2rem;}
+
 #logo:hover { transform: scale(1.05);}
 
 
 #handlevogn {height: 20px;  width: 20px;}
+
 #handlevogn:hover {transform: scale(1.1);}
 
 #hjerte { height: 20px;  width: 20px;}
+
 #hjerte:hover {transform: scale(1.1);}
 
 #søkemotor {
@@ -45,7 +50,9 @@ h4 {font-size: 20px;}
     justify-content: center;}
 
 header form {height: 25px; position: relative;}
+
 header nav { display: flex; flex-wrap: wrap; width: 1500px; justify-content: center; margin: auto;}
+
 header {background-color: rgb(206, 166, 118); height: 175px; justify-content: center;}
 
 #banner img {
@@ -54,13 +61,16 @@ header {background-color: rgb(206, 166, 118); height: 175px; justify-content: ce
     width: 200px;
     height: 150px;
     margin: auto auto 10px auto;}
+
 #bannerover {
     display: flex;
     justify-content: center;}
+
 #banner #avocado img{
     width: 150px;
     height: 100px;
     display: flex;}
+
 #banner {
     justify-content: center;
     display: flex;
@@ -90,12 +100,15 @@ header nav ul {
     gap: 20px; 
     width: 475px;
     justify-content: start;}
+
 ul {list-style: none;}
 
 a {text-decoration: none;  color: black;}
+
 a:hover {color: brown;}
 
 img {width: 300px;  height: 275px; border: 2px; border-radius: 5%;}
+
 img:hover {transform: scale(1.05);}
 
 #main {
@@ -107,8 +120,7 @@ img:hover {transform: scale(1.05);}
 #overbestepro {
     width: 950px;
     display: flex;
-    min-width: 100%;
-}
+    min-width: 100%;}
 
 #besteprodukter {
     width: 950px;
@@ -129,9 +141,13 @@ img:hover {transform: scale(1.05);}
         font-size: 25px;}
 
 #anmeld h2 {width: 1200px;}
+
 #anmeld article img {width: 200px;  height: 50px;}
+
 #anmeld article img:hover {transform: none;}
+
 #anmeld article {width: 250px;}
+
 #anmeld {
     width: 1200px;
     list-style: none;
@@ -153,7 +169,9 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
 #logobunn img {width: 40px; height: 40px; background-color: rgb(206, 166, 118); margin:0px 10px 15px auto;}
 
 #nederste a {color: white;}
+
 #nederste a:hover {color: brown;}
+
 #nederste {
     width: 100%;
     display: flex;
@@ -162,20 +180,32 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     background-color: rgb(206, 166, 118);
     margin: auto auto 10px auto;
     justify-content: space-between;}
+
 #nederste img {width: 20px; height: 20px;}
+
 #nederste p {
             font-size: 15px;
             margin: 4px auto auto 7px; 
             color: black; 
             background-color: rgb(206, 166, 118); 
-            display: flex;   
-}
+            display: flex;}
 
 #omoss{ color: white; width: 400px;}
-#sosialemedier{  color: white; width: 400px; display: flex; justify-content: flex-end; align-items: flex-end;}
-#snarveier {  color: white; width: 400px; display: flex; justify-content: flex-start; align-items: flex-end; gap: 1rem;}
 
+#sosialemedier{  
+    color: white; 
+    width: 400px; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-end;}
 
+#snarveier {  
+    color: white; 
+    width: 400px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    gap: 1rem;}
 
 #brødsmulesti {
     display: flex;
@@ -184,12 +214,40 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     background-color: rgb(238, 232, 226);
     gap: 10px;
     font-size: 15px;
-    margin: 0px auto;
-}
+    height: 20px;
+    margin: 0px auto;}
+
 #brødsmulesti li:hover {
     text-decoration: underline;
-    cursor: pointer;
-}
+    cursor: pointer;}
+
+#produkt #hovedbilde {
+    width: 410px;
+    height: 310px;
+    transform: none;}
+
+ #grid {
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;}
+
+#produkt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    gap: 10px;
+    margin: auto 0px 0px 350px;}
+
+#produkt img {
+    width: 130px;
+    height: 100px;}
+    
+#produktinfo {
+    display: flex;
+    margin: auto 0px 10px 100px;
+    width: 200px;
+    height: 310px;
+    flex-wrap: wrap;}
 
 
 
