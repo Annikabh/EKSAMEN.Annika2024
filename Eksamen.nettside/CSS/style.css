@@ -56,31 +56,33 @@ header nav { display: flex; flex-wrap: wrap; width: 1500px; justify-content: cen
 header {background-color: rgb(206, 166, 118); height: 175px; justify-content: center;}
 
 #banner img {
-    transform: none;
     border-radius: 0%;
     width: 200px;
     height: 150px;
     margin: auto auto 10px auto;}
 
+#banner a {
+    display: flex;
+    width: 200px;}
+
 #bannerover {
     display: flex;
     justify-content: center;}
 
-#banner #avocado img{
-    width: 150px;
-    height: 100px;
-    display: flex;}
-
 #banner {
     justify-content: center;
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
+    height: 300px;
     width: 1100px;
     border: 1rem, color black;
     margin: 30px auto;
     background-color: rgb(238, 232, 226);
-}
+    gap: 5px;
+    
+    input {height: 150px; background-color: white; border-color: white; border: 2px; width: 20px;}
+    input:hover {background-color: rgb(206, 166, 118);}}
 
 #hovedmeny{ 
     display: flex; 
@@ -91,7 +93,7 @@ header {background-color: rgb(206, 166, 118); height: 175px; justify-content: ce
     margin: auto auto auto 30px;
     font-size: 18px;
     list-style: none;
-justify-content: center;}
+    justify-content: center;}
 
 header nav ul {
     list-style: none; 
@@ -211,11 +213,11 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    background-color: rgb(238, 232, 226);
     gap: 10px;
     font-size: 15px;
     height: 20px;
-    margin: 0px auto;}
+    margin: 15px auto auto 60px;
+    width: 100%;}
 
 #brødsmulesti li:hover {
     text-decoration: underline;
@@ -226,8 +228,7 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     height: 310px;
     transform: none;}
 
- #grid {
-    width: 420px;
+#grid {
     display: flex;
     flex-wrap: wrap;}
 
@@ -236,18 +237,55 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     flex-wrap: wrap;
     width: 420px;
     gap: 10px;
-    margin: auto 0px 0px 350px;}
+    margin: 100px 0px 100px 350px;
+    h5 {display: flex; margin-left: 15px;}}
 
 #produkt img {
     width: 130px;
-    height: 100px;}
+    height: 100px;
+    margin: auto auto 50px auto;}
     
 #produktinfo {
     display: flex;
-    margin: auto 0px 10px 100px;
-    width: 200px;
+    margin: 225px 0px 100px 100px;
+    width: 300px;
     height: 310px;
     flex-wrap: wrap;}
+
+#produktinfo #fargene img {
+    width: 20px;
+    height: 20px;}
+#produktinfo #fargene img:hover {
+    transform: scale(1.5);}
+
+#produktinfo h2 {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;}
+
+#produktinfo li {
+    width: 150px;}
+
+#lignende {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    img{width: 200px; height: 200px;}
+    article {width: 210px;}
+    h2 { display: flex; justify-content: flex-start; margin-left: 80px;}}
+
+
+#handlekurven {
+    width: 400px;
+    display: flex;
+    height: 1000px;
+
+    img {width: 200px; height: 200px;}
+    h2 {width: 100%;}
+}
 
 
 
