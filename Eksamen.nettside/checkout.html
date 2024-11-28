@@ -86,6 +86,37 @@
                 
         </section>
 
+        <section id="levering">
+            <h2>Levering</h2>
+            <form>
+                <input type="radio" name="frakt" id="express"><label for="express">Express-levering til utleveringgssted</label><br>
+                <input type="radio" name="frakt" id="expresshjem"><label for="expresshjem">Express-levering hjem til deg</label><br>
+                <input type="radio" name="frakt" id="hjemlevering"><label for="hjemlevering">Levering hjem til deg</label>
+            </form>
+        </section>
+
+        <section id="betaling">
+            <h2>Betaling</h2>
+            <form id="kortinfo">
+                <label for="kortnummer">Kortnummer</label><br>
+                <input type="number" id="kortnummer"><br>
+
+                <label for="utløp">Utløpsdato</label><br>
+                <input type="date" id="utløp"><br>
+
+                <label for="CCV">CCV</label><br>
+                <input type="number" id="CCV"><br>
+
+                <input type="submit" value="Betal">
+            </form>
+            <p id="penger"> 348 kr</p>
+            <p>Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger.</p>
+            <form id="samtykke">
+                <input type="radio" id="godta"><label for="godta">"Ja, jeg godtar vilkårene"</label>
+                <input type="radio" id="godta2"><label for="godta2">"Ja, takk! Send nyhetsbrev til meg"</label>
+            </form>
+        </section>
+
     </main>
     
 
@@ -104,6 +135,7 @@
                 </ul>
 
                 <ul id="snarveier">
+                    <li>  <a href="file:///C:/Users/Admin/Desktop/utfyllingsskjema%20eksamen.htm">WCAG</a></li>
                     <li>  <a href="#besteprodukter">Produkter</a></li>
                     <li>  <a href="#bestekategorier">Kategorier</a></li>
                     <li>  <a href="index.html">Hjem</a></li>

@@ -318,13 +318,71 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     width: 400px;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 18px;
 
     h2 {
         display: flex;
         justify-content: flex-start;
+        align-items: flex-start;}
+    input {margin-bottom: 30px;}
+    label {display: flex; margin-bottom: 5px;}}
+
+#levering {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin: auto auto 50px 400px;
+    font-size: 20px;
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+    
+        input{
+            display: flex;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            width: 20px;
+            flex-wrap: wrap;}}
+    label{width: 350px;}}
+
+#overskrift {color: white;}
+
+#levering h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;}
+
+#betaling {
+    font-size: 18px;
+    margin-left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    h2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
         align-items: flex-start;
-    }
-}
+        width: 1200px;}
+
+    #penger {display: flex; width: 1200px; font-size: 50px;}
+    p {width: 600px; border-color: black;}}
+
+#kortinfo {
+    width: 1200px;
+
+    input {display: flex; margin-bottom: 5px; margin-top: 5px;}}
+
+#samtykke {
+    font-size: 18px;
+    width: 1200px;
+    margin-bottom: 100px;}
+
+
 
 
 
