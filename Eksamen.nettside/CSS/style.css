@@ -279,19 +279,52 @@ footer {background-color: rgb(206, 166, 118); color: white; height: 200px; borde
     h2 { display: flex; justify-content: flex-start; margin-left: 80px;}}
 
 #bilderhandel {
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto auto 60px 300px;
+    margin: auto auto 60px 400px;
     font-size: 20px;
     gap: 1rem;
 
+    h2 { display: flex; justify-content: flex-start; align-items: flex-start;}
     img {width: 150px; height: 150px;}
     article {
         width: 200px;
         height: 150px;
         
         img {width: 15px; height: 15px;}}}
+#bilderhandel .søppel {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin: auto 5px 10px auto;
+    justify-content: flex-end;
+    align-items: flex-end;}
+#bilderhandel .søppel:hover { transform: scale(1.5);}
+#bilderhandel .hjertecheck:hover {transform: scale(1.5);}
+
+#bilderhandel .hjertecheck {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin: auto auto 10px 0px;
+    justify-content: flex-end;
+    align-items: flex-end;}
+
+#personopplysninger {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto 60px 400px;
+    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    h2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
 
 
 
